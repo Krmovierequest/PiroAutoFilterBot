@@ -14,9 +14,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8000")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '12850056'))
-API_HASH = environ.get('API_HASH', '15564ec4a1a2cbef87c99a9aa9e40b34')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5902548454:AAF8rVnn6QhAB50vBrpouK2jHpROCHgsVOU')
+API_ID = int(environ.get('API_ID', '128500'))
+API_HASH = environ.get('API_HASH', '15564ec4a1a2cbef87c99a9aa9e4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5902548454:AAF8rVnn650vBrpouK2jHpROCHgsVOU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = -1001827834801
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Djmixpur:7872278427kd@cluster0.h4qnd9l.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Djmixpur:7872@cluster0.h4qnd9l.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
